@@ -2,11 +2,10 @@ import { Container, Grid } from '@mui/material';
 import Image from 'next/image';
 import { LocationOn } from '@mui/icons-material';
 import Logo from '@/public/icons/logo.png';
-import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <Container className='bg-white flex flex-col justify-between py-4 gap-[64px] lg:pt-[64px] lg:pb-4'>
+    <Container className='bg-white flex flex-col justify-between py-4 gap-[64px] lg:pt-[64px] lg:pb-8'>
       <div className='h-[2px] bg-[#0081FE]'></div>
 
       <Grid container spacing={2} className='flex items-center'>
@@ -51,30 +50,16 @@ const Footer = () => {
             </Grid>
           </Grid>
 
-          <div className='flex gap-3 items-center'>
+          <div className='flex gap-3'>
             <div className='text-sm font-normal text-_black'>Social Media</div>
 
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
           </div>
         </Grid>
       </Grid>

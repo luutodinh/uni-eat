@@ -2,7 +2,6 @@ import { Container, Grid } from '@mui/material';
 import Image from 'next/image';
 import { LocationOn } from '@mui/icons-material';
 import Logo from '@/public/icons/logo.png';
-import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -54,27 +53,13 @@ const Footer = () => {
           <div className='flex gap-3 items-center'>
             <div className='text-sm font-normal text-_black'>Social Media</div>
 
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
-            <Link href='#'>
-              <LocationOn fontSize='medium' color='info' />
-            </Link>
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
+            <LocationOn fontSize='medium' color='info' />
           </div>
         </Grid>
       </Grid>
